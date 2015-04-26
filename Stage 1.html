@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<!-- Copy of my notes for Stage 1 project -->
+
+<head>
+<title>Class Notes</title>
+<link rel="stylesheet" href="stage1.css">
+</head>
+<body>
+	<h1>Intro To Programming</h1>
+	<div class="lessons">
+
+		<h2>Lesson 1 - Getting Started with HTML </h2>
+		<div class="columns">
+			<div class="main-points-box">
+				<div class="main-point-title">
+					Basics of the Web
+				</div>
+				<div class="main-point-info">
+					<ul>
+						<li> - the web </li>
+						<li> - html</li>
+						<li> - urls</li>
+						<li> - http	</li>
+						<li> - web applications</li>  
+						<li> - The World Wide web - <em>collection of html pages</em></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main-points-box">
+				<div class="main-point-title">
+					Major pieces
+				</div>
+				<div class="main-point-info">
+					<ul>
+						<li>- You</li>
+						<li>- Your computer and browser</li>
+						<li>- The internet</li>
+						<li>- http - protocol on the internet</li>
+						<li>- Servers</li>
+					</ul>
+				</div>
+			</div>
+			<div class="main-points-box">
+				<div class="main-point-title">
+					HTML Makeup
+				</div>
+				<div class="main-point-info">  
+					<ul class="main-point-info">
+						<li> - Text content</li>
+						<li> - Markup - look of text</li>
+						<li> - References to other documents</li>
+						<li> - Links to other pages</li>
+					</ul>
+				</div> 
+			</div>
+		</div>
+		<div class="columns">
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					Markup
+				</div>
+				<div class="main-point-info">
+					<ul>
+						<li> - how changes to the text formatting is made</li>
+						<li>- <b>Bold</b> &lt;b&gt; &lt;/b&gt;</li>
+						<li>- <em>Italics</em> &lt;em&gt; &lt;/em&gt;</li>
+						<li>HTLM Attributes formatting:</li>
+						<li>&lt;tag ATTR="value"&gt; contents &lt;/tag&gt;</li>
+						<li>&lt;a href="www.reddit.com"&gt;derp&lt;/a&gt;</li>
+						<li><a href="http://www.reddit.com" target="_blank">derp</a> -- example hyperlink</li>
+					</ul>
+				</div>
+			</div>
+			<div class="main-points-box">
+				<div class="main-point-title">
+					Images
+				</div>
+				<div class="main-point-info">
+					<ul>
+						<li>&lt;img&gt; - images</li>
+						<li>&lt;img src="url" alt="text"&gt;  - void tag..</li>
+						<li>- No content or closing tag</li>
+					</ul>
+					<div class="hipmunk">
+						<img src="http://www.udacity.com/cs253x/hipmunk.png" alt="hipmunk!">
+					</div>
+				</div>
+			</div>
+		
+			<div class="main-points-box">
+				<div class="main-point-title">
+					Whitespace
+				</div>
+				<div class="main-point-info">
+					<ul>
+						<li>- blank lines... Can be created with break or paragraph</li>
+						<li>&lt;br&gt; break ... example of a Void tag</li>
+						<li>&lt;p&gt; content &lt;/p&gt;  paragraph	</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="columns">
+			<div class="main-points-box">
+				<div class="main-point-title">
+					Inline/block
+				</div>
+				<div class="main-point-info">	
+					<ul>	
+						<li>&lt;br&gt; - inline</li>
+						<li>&lt;p&gt;text&lt;/p&gt; - block - creates a box around the text</li>
+						<li>- Can have special formatting assigned</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="main-points-box">
+				<div class="main-point-title">
+					HTML Document
+				</div>
+				<div class="main-point-info">
+					<ul>
+						<li>Important elements of HTML pages include:</li>
+						<li>- Doctype  &lt;Html&gt; &lt;/html&gt;</li>
+						<li>- Header &lt;Head&gt;  &lt;/head&gt;</li>
+						<li>- Body &lt;Body&gt; &lt;/body&gt;</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of lesson 1-->
+	<!-- begining of lesson 2-->
+	<div class="lessons">
+		
+		<h2>Lesson 2 - Webpages, Documents and Structure</h2>
+		
+		<div class="columns">
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					Webpage Makeup
+				</div>
+				<div class="main-point-info">
+					<ul>
+						<li>HTML - framework</li>
+						<li>CSS - style</li>
+						<li>Java script files- interactive</li>
+					</ul>
+				</div>	
+			</div>
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					Structure
+				</div>
+				<div class="main-point-info">
+					Each page is made up of boxes which are nested within other boxes.  This creates a tree like structure, where there are multiple branches, and each branch has more branches.
+					<br>The HTML file is written in a way showing this structure.  This is called "DOM" (Document Object Model).  This makes it easy to see the  hierarchy of each element.
+				</div>
+			</div>
+		</div>
+		<div class="columns">
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					Tools
+				</div>
+				<div class="main-point-info">
+					<ul>
+						<li>Tools for editing and reading HTML and CSS</li>
+						<li>-	Google Chrome Developer Tools</li>
+						<li>-	<a href="http://scratchpad.io/" target="_blank">Scratchpad.io</a>  - very basic, good for beginners, only HTML and CSS supported</li>
+						<li>-	<a href="http://codepen.io/" target="_blank">CodePen</a> - higher quality, not as many beginner level features, HTML, CSS and Java</li>
+						<li>-	<a href="http://www.sublimetext.com/" target="_blank">Sublime</a> - hightest quality, not as easy for beginners, all languages supported</li>
+					</ul>
+				</div>
+			</div>
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					Goals
+				</div>
+				<div class="main-point-info">
+					<ul>
+						<li>Move from Ignorance to Awareness, then to Ability and eventually Fluency.</li>
+						<li>Goal is to be able to see a website and know what the code looks like.</li>
+						<li>As well as see the code and know what the website will look like.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of Lesson 2   -->
+	<!-- Begginging of lesson 3  -->
+	<div class="lessons">
+		<h2>Lesson 3 - Adding Style with CSS</h2>
+		<div class="columns">	
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					Styles
+				</div>
+				<div class="main-point-info">
+					<p>Style are Cascading, most specific setting will apply. </p>
+					<p>Styles are used to assign formatting to specific elements... H1, p, class etc... They are used to reduce repetition. 
+					<br>For example: Once a class type has been assigned formatting in the css file then all elements with that same class will be formatted the same, without having to repeat the formatting information over and over.</p>
+					<br>This reduces errors in inconsistent formatting, and also makes it easy to update the formatting for the page.
+				</div>
+			</div>
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					Using Styles
+				</div>	
+				<div class="main-point-info">
+					<ul>
+						<li>Style can be added 2 ways:</li>
+						<li>With a link tag with the address for the style file:</li>
+						<li>&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;</li>
+						<li></li>
+						<li>Or with a style tag within the HTML page:</li>
+						<li>&lt;style&gt;</li>
+						<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     .description { </li>
+						<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          color : red; </li>
+						<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     }</li>
+						<li>&lt;/style&gt;</li>
+					</ul>
+				</div>
+			</div>
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					Tips for coding a website
+				</div>
+				<div class="main-point-info">
+					<ul>
+						<li>Code-test-refine</li>
+						<li>Look for natural boxes</li>
+						<li>Look for repeated styles and semantic elements and use css to reduce repetition</li>
+						<li>Apply styles from biggest to smallest</li>
+						<li>Fix things</li>
+						<li><a href="http://validator.w3.org/#validate_by_input" target="_blank">HTML Validation</a> test</li>
+						<li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">CSS Validation</a> test</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of lesson 3  -->
+	<h1>Telling Computers What to Do</h1>
+	<div class="lessons">
+		<h2>Lesson 1 - Introduction to "Serious" Programming</h2>
+		<div class="columns">	
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					Programming Languages
+				</div>
+				<div class="main-point-info">
+					<p><em><b>Programming languages</b></em> are how we tell a computer what to do.  Computers wouldn't be able to do anything without a program telling it what to do.  There are many computer languages that can be used.  One example is <em>Python</em>.</p>
+
+				</div>
+			</div>
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					Program
+				</div>	
+				<div class="main-point-info">
+					<p>A computer <b><em>program</em></b> is a specific sequence of instructions that tell a computer what to do.  Programs can be written to perform many functions, web browser, games, apps etc...</p>
+					<p>Computer programs use <b><em>expressions</em></b> to formulate their results.  Expressions are the instructions the program uses and must follow the rules of grammar for the programming language.</p>
+				</div>
+			</div>
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					Grammar
+				</div>
+				<div class="main-point-info">
+					<p>Each computer program has a specific <b><em>grammar</em></b> that must be followed.  Natural languages can be very ambigous and verbose.  One phrase or sentence could be interpreted by different people to mean different things.  However, computer programs must have one specific interpretation so that every computer will have the same result every time.   
+					</p>
+
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="lessons">
+		<h2>Lesson 2 - Variables and Strings</h2>
+		<div class="columns">	
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					Variables
+				</div>
+				<div class="main-point-info">
+					<p><em><b>Variables</b></em> are a way to give a name to a value within the program.  Variables could be assigned a value that is text, a number, a mathematical formula or even the output of a function within the program. </p>
+
+				</div>
+			</div>
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					Assign Value to a Variable
+				</div>	
+				<div class="main-point-info">
+					<p>You can assign a value to a variable simply by using the = sign.  Example, Name = "" which is a string, or Age = 41 which is a numerical value</p>
+					<p>In a normal equation like 2 + 3 = 5 the equal sign indicates that the value of the expression on the left side of the = is the same as the value on the right.  When assigning a value to a variable the equal sign indicates that the variable name on the left side is being assigned the value that is on the right.</p>
+				</div>
+			</div>
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					The Difference Between Strings and Numbers
+				</div>
+				<div class="main-point-info">
+					<p>In Python a 2 could be either a string or a number.  In the expression "2" + "2" the program would interpret the 2's as strings or as text and the output would actually be the concatenation of the 2's, resulting in the output of "22".
+					</p>
+					<p>If the expression was 2 + 2 then the 2's would be treated as numbers and the result would be the mathematical operation of adding the 2's together resulting in an output of 4.</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="lessons">
+		<h2>Lesson 3 - Input -> Function -> Output</h2>
+		<div class="columns">	
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					What is a Function
+				</div>
+				<div class="main-point-info">
+					<p>In a program a <b><em>Function</em></b> is something that takes an input and performs actions with that input and produces an output.  Functions can be used to perform a specific task and be called by the program multiple times using unique inputs.</p>
+
+				</div>
+			</div>
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					Defining and Using a Function in Python
+				</div>	
+				<div class="main-point-info">
+					<p>A funcion is <b><em>Defined</em></b> by using a def followed by the parameters in parenthesis.  The next lines in the function will be the actions that the function performs using the parameters.  The last line of the function will be a return statement with the value to be returned.</p>
+					<p>A function is called by using the name of the function along with the values we want to pass to it in parenthesis. </p>
+				</div>
+			</div>
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					How Do Functions Help in Programming
+				</div>
+				<div class="main-point-info">
+					<p>Once a function has been defined it can be called over and over.  This aids the programmer by reducing repetition.  If there is an action that will need to be performed multiple times, then a function could be written once and then be used every time it is needed without having to repeat the code again.</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="lessons">
+		<h2>Lesson 4 - Control Flow and Loops : If and While </h2>
+		<div class="columns">	
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					If Statements
+				</div>
+				<div class="main-point-info">
+					<p><em><b>If Statements</b></em> can be used to perform a function depending on if an expression is true or false.  If an if statement is used by itself then it will perform a function if the test expression is true and do nothing if it is false.  You can also add an else statement that will be performed if the statement was false.  </p>
+
+				</div>
+			</div>
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					While Loops
+				</div>	
+				<div class="main-point-info">
+					<p><b><em>While Loops</em></b> will evaluate a test expression and as long as the result is True then it will execute the code within the loop.  It will then return to the test expression and evaluate it again.  It is important that the test expression will eventually be a true statement so that the loop will end.   </p>
+					<br>Example below:
+					<br>
+					<div class="code">
+						list = [1 ,2, 3]
+						<br>while i &lt; len(list):
+						<br>&nbsp;&nbsp;&nbsp;&nbsp;print list[i]
+						<br>&nbsp;&nbsp;&nbsp;&nbsp;i = i + 1
+					</div>
+					<br>The code above would assign i the value of the first element in the list and loop through the list one element at a time until the end of the list.  The example output would be:
+					<div class="code">
+						1
+						<br>2
+						<br>3 
+					</div>
+				</div>
+			</div>
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					Debugging
+				</div>
+				<div class="main-point-info">
+					<p>No one writes perfect code all the time.  When a piece of code is resulting in an error or not returning the desired value, the problem can be found by <b><em>debugging</em></b> the code.  This could include inserting extra print statements to dispay the value of variables at critical points of the code.  
+					</p>
+
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="lessons">
+		<h2>Lesson 5 - Structured Data : Lists and For Loops</h2>
+		<div class="columns">	
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					Strings and Lists
+				</div>
+				<div class="main-point-info">
+					<p><em><b>Strings and Lists</b></em> are two different ways to store data and both are examples of structured data.  They are considred to be structured data because they can be broken down into their individual components.  For instance a string could be assigned the value of 'hello' (ex a = 'hello')and a list could be assigned the value of ['h','e','l','l','o'], (ex b = ['h','e','l','l','o'])</p>
+					<p>One difference between strings and lists is that lists can be a list of any type, strings, numbers, characters, or even other lists.  </p>
+
+				</div>
+			</div>
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					Mutation and Aliasing
+				</div>	
+				<div class="main-point-info">
+					<p><b><em>Mutation</em></b> refers to the ability to change the value of a list after it has been created.  If any element of a list is changed, the every variable that was assigned that list, or any specific element of the list, will be updated.</p>
+					<p><b><em>Aliasing</em></b> refers to two variables being assigned the same object. With Lists if two variables are assigned to the same list and an operation is performed on one variable that changes its value, then the value of the other variable is updated as well.</p>
+				</div>
+			</div>
+			<div class="main-points-box">
+				<div class="main-point-title">	
+					For Loops
+				</div>
+				<div class="main-point-info">
+					<b><em>For Loops</em></b> can be used to loop through each element in a list.  
+					<br>Example below:
+					<br>
+					<div class="code">
+						list = [1 ,2, 3]
+						<br>for i in list:
+						<br>&nbsp;&nbsp;&nbsp;&nbsp;print i
+					</div>
+					<br>The code above would assign i the value of the first element in the list and loop through the list one element at a time until the end of the list.  The example output would be:
+					<div class="code">
+						1
+						<br>2
+						<br>3 
+					</div>
+					
+
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</body>
